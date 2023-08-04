@@ -1,8 +1,8 @@
 import axios from "axios"
 
 class GetUrlController {
-    static listUrl = async (req, res) => {
-        const response = await axios.get('https://youtube.com.br')
+    static  = async (req, res) => {
+        const response = await axios.get('https://google.com.br')
 
         const tagRegex = /<\s*([a-zA-Z]+\d*)(?=[^>]*>)/g;
         const voidTags = [
